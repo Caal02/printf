@@ -19,7 +19,7 @@ int print_X(va_list X);
 int print_rot13(va_list R);
 int _puts(char *str);
 int print_S(va_list S);
-
+int print_pointer(va_list val);
 /**
   * struct code_format - Struct format
   *
