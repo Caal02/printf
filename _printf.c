@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
 #include "main.h"
@@ -22,8 +23,10 @@ int (*find_function(const char *format))(va_list)
 		{"x", print_x},
 		{"X", print_X},
 		{"R", print_rot13},
+		{"S", print_S},
+		{"p", print_p},
 		{NULL, NULL}
-	};
+		};
 
 	while (find_f[i].sc)
 	{
