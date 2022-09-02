@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
   * print_S - prints custom specifier
-  * @list: va_list
+  * @S: va_list
   * Return: number of characters printed
   */
 int print_S(va_list S)
